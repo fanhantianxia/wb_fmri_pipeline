@@ -16,7 +16,7 @@ import nibabel as nib
 
 class Data2Bids():
 
-    def __init__(self, input_dir="/FCD", config=None, output_dir=None):
+    def __init__(self, input_dir="/nit", config=None, output_dir=None):
         self._input_dir = None
         self._config_path = None
         self._config = None
