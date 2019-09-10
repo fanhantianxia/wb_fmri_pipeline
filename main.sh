@@ -49,9 +49,9 @@ python fmriprep2nit.py  #需要修改一下程序内部路径
 
 chmod 777 -R /root/matlab_script/
 mkdir /out/FCD  #FCD输出文件夹
-/root/matlab_script/wb_pipeline_FCD /nit/FCD_Input /out/FCD /file_buf/brain_mask.nii 0.6 2 0 #[Thresold] [TR] [ConnectType]
+/root/matlab_script/wb_pipeline_FCD /nit/nit_Input /out/FCD /file_buf/brain_mask.nii 0.6 2 0 #[Thresold] [TR] [ConnectType]
 
 mkdir /out/FOCA  #FOCA输出文件夹
-/root/matlab_script/wb_pipeline_FOCA /nit/FCD_Input /out/FOCA /file_buf/brain_mask.nii 2
+/root/matlab_script/wb_pipeline_FOCA /nit/nit_Input /out/FOCA /file_buf/brain_mask.nii 2
 echo 'END'
 
