@@ -44,7 +44,7 @@ RUN cd /script
 #RUN rm -rf /script
 #ENTRYPOINT ["/root/matlab_script/wb_pipeline_FCD"]
 
-RUN git clone https://github.com/fanhantianxia/wb_pipeline_FCD.git 
+RUN git clone https://github.com/fanhantianxia/wb_fmri_pipeline.git 
 ADD main.sh /root/main.sh
 RUN chmod a+x /root/main.sh
 RUN rm -rf /script
