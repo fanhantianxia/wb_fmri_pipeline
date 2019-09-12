@@ -47,7 +47,7 @@ mkdir /nit
 find /out/fmriprep -type f -name "*desc-preproc_bold.nii.gz" | xargs cp -t  /nit
 gzip  -d  /nit/*_bold.nii.gz
 
-#在/FCD里添加config.json和fmriprep2FCD.py
+#在/nit里添加config.json和fmriprep2nit.py
 cp /file_buf/config.json /nit
 cp /file_buf/fmriprep2nit.py /nit
 cd /nit
