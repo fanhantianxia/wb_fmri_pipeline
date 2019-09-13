@@ -36,7 +36,7 @@ RUN mkdir /root/matlab_script/
 ADD wb_pipeline_FCD /root/matlab_script/
 ADD wb_pipeline_FOCA /root/matlab_script/
 #RUN cp /app_file/wb_pipeline_FCD /root/matlab_script/
-#RUN cp /app_file/wb_pipeline_FOCA /root/matlab_script/
+
 
 RUN mkdir -p /script
 RUN cd /script
