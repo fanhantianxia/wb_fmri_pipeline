@@ -29,14 +29,12 @@ RUN rm -Rf /mcr-install
 #ENV MCR_CACHE_VERBOSE=true
 #ENV MCR_CACHE_ROOT=/tmp
 
-RUN mkdir -p /app_file
-RUN cd /app_file
-RUN git clone https://github.com/fanhantianxia/wb_fmri_pipeline_tool.git /app_file  #tool_dir
-RUN mkdir /root/matlab_script/
-RUN cp /app_file/wb_pipeline_FCD /root/matlab_script/
-RUN cp /app_file/wb_pipeline_FOCA /root/matlab_script/
+#RUN mkdir -p /app_file
+#RUN cd /app_file
+#RUN git clone https://github.com/fanhantianxia/wb_fmri_pipeline_tool.git /app_file  #tool_dir
+#RUN mkdir /root/matlab_script/
 #RUN cp /app_file/wb_pipeline_FCD /root/matlab_script/
-
+#RUN cp /app_file/wb_pipeline_FOCA /root/matlab_script/
 
 RUN mkdir -p /script
 RUN cd /script
