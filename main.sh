@@ -3,12 +3,12 @@ input_dir=$1  # /data
 output_dir=$2
 combs_project_id=$3
 
-#mkdir -p /app_file
-#cd /app_file
-#git clone https://github.com/fanhantianxia/wb_fmri_pipeline_tool.git /app_file
-#mkdir /root/matlab_script/
-#cp /app_file/wb_pipeline_FCD /root/matlab_script/
-#cp /app_file/wb_pipeline_FOCA /root/matlab_script/
+mkdir -p /app_file
+cd /app_file
+git clone https://github.com/fanhantianxia/wb_fmri_pipeline_tool.git /app_file
+mkdir /root/matlab_script/
+cp /app_file/wb_pipeline_FCD /root/matlab_script/
+cp /app_file/wb_pipeline_FOCA /root/matlab_script/
 
 mkdir -p /file_buf
 cd /file_buf
