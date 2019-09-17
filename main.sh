@@ -28,9 +28,9 @@ fmriprep --version
 sleep 3s
 
 mkdir /DataBuf 
-#fmriprep /data/data_BIDS $2 participant -w /DataBuf --no-submm-recon --fs-no-reconall
+fmriprep /data/data_BIDS $2 participant -w /DataBuf --no-submm-recon --fs-no-reconall
 
-#matlab config
+#--matlab config--
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/MATLAB/MATLAB_Runtime/v90/runtime/glnxa64:/usr/local/MATLAB/MATLAB_Runtime/v90/bin/glnxa64:/usr/local/MATLAB/MATLAB_Runtime/v90/sys/os/glnxa64:/usr/local/MATLAB/MATLAB_Runtime/v90/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/usr/local/MATLAB/MATLAB_Runtime/v90/sys/java/jre/glnxa64/jre/lib/amd64/server:/usr/local/MATLAB/MATLAB_Runtime/v90/sys/java/jre/glnxa64/jre/lib/amd64
 export XAPPLRESDIR=/usr/local/MATLAB/MATLAB_Runtime/v90/X11/app-defaults
 export MCR_CACHE_VERBOSE=true
