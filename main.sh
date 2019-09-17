@@ -36,6 +36,11 @@ env XAPPLRESDIR=/usr/local/MATLAB/MATLAB_Runtime/v90/X11/app-defaults
 env MCR_CACHE_VERBOSE=true
 env MCR_CACHE_ROOT=/tmp
 
+echo $LD_LIBRARY_PATH
+echo $XAPPLRESDIR
+echo $MCR_CACHE_VERBOSE
+echo $MCR_CACHE_ROOT
+
 mkdir -p /app_file
 cd /app_file
 git clone https://github.com/fanhantianxia/wb_fmri_pipeline_tool.git /app_file
